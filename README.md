@@ -34,6 +34,6 @@ Wishing you all very good health and a stable blood sugar!
 All the best & Happy reading!
 🦸‍♀️
 
-## Disclamier: 
+## Disclamier:
 The advice in this application is not meant as medical advice or to replace necessary medical care. 
 Please inform yourself thouroughly and also consult your midwife / family doctor / other necessary medical personnel/physicians for any medical conditions before making any medical/health decisions. The advice in this application is used as a guide for those seeking information on how to approach managing blood sugar via natural methods and through a holistic approach. You are fully responsible for the choices you make for your own health.
