@@ -80,8 +80,10 @@ const Layout: React.FC = () => {
           </button>
         </div>
       </header>
+
       <Nav />
-      <main className="p-4">
+
+      <main className="p-10 bg-teal-50">
         <Outlet />
       </main>
     </div>

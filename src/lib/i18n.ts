@@ -18,6 +18,11 @@ const resources = {
       noSearchResults: 'No results found for "{query}"',
       backToHome: "Back to Home",
       menuToggle: "Toggle menu for {area}",
+
+      home: {
+        welcome: "Welcome",
+        welcomeText: "We are so happy you found your way to our page!",
+      },
     },
   },
   sv: {
@@ -36,6 +41,11 @@ const resources = {
       noSearchResults: 'Inga resultat för "{query}"',
       backToHome: "Tillbaka till Hem",
       menuToggle: "Växla meny för {area}",
+
+      home: {
+        welcome: "Välkommen",
+        welcomeText: "Vi är så glada att du har hittat hit till vår sida!",
+      },
     },
   },
 };
