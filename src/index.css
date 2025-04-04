@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure focus visibility */
+:focus {
+  @apply ring-2 ring-focus outline-none;
+}

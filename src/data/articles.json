@@ -1,0 +1,52 @@
+{
+  "healthAreas": [
+    {
+      "id": "gestational-diabetes",
+      "titles": { "en": "Gestational Diabetes", "sv": "Graviditetsdiabetes" },
+      "articles": [
+        {
+          "id": "diet",
+          "titles": {
+            "en": "Diet for Gestational Diabetes",
+            "sv": "Kost vid Graviditetsdiabetes"
+          },
+          "content": {
+            "en": "A balanced diet helps manage blood sugar levels during pregnancy.",
+            "sv": "En balanserad kost hjälper till att hantera blodsockernivåer under graviditeten."
+          },
+          "keywords": ["diet", "nutrition", "blood sugar"]
+        },
+        {
+          "id": "exercise",
+          "titles": {
+            "en": "Exercise During Pregnancy",
+            "sv": "Träning under Graviditet"
+          },
+          "content": {
+            "en": "Light exercise can improve insulin sensitivity.",
+            "sv": "Lätt träning kan förbättra insulinkänsligheten."
+          },
+          "keywords": ["exercise", "pregnancy", "insulin"]
+        }
+      ]
+    },
+    {
+      "id": "postpartum",
+      "titles": { "en": "Postpartum Care", "sv": "Eftervård" },
+      "articles": [
+        {
+          "id": "monitoring",
+          "titles": {
+            "en": "Monitoring After Birth",
+            "sv": "Övervakning efter Födseln"
+          },
+          "content": {
+            "en": "Check blood sugar levels after delivery to ensure stability.",
+            "sv": "Kontrollera blodsockernivåer efter förlossningen för att säkerställa stabilitet."
+          },
+          "keywords": ["monitoring", "postpartum", "blood sugar"]
+        }
+      ]
+    }
+  ]
+}
