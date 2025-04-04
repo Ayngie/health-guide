@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      appTitle: "Gestational Diabetes Guide",
+      appTitle: "Health Guide",
       lightMode: "Light Mode",
       darkMode: "Dark Mode",
       search: "Search",
@@ -22,7 +22,7 @@ const resources = {
   },
   sv: {
     translation: {
-      appTitle: "Graviditetsdiabetesguiden",
+      appTitle: "Hälsoguide",
       lightMode: "Ljust läge",
       darkMode: "Mörkt läge",
       search: "Sök",

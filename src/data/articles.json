@@ -1,48 +1,57 @@
 {
   "healthAreas": [
     {
-      "id": "gestational-diabetes",
-      "titles": { "en": "Gestational Diabetes", "sv": "Graviditetsdiabetes" },
+      "id": "blood-values",
+      "titles": { "en": "Blood values", "sv": "Blodvärden" },
       "articles": [
         {
-          "id": "diet",
+          "id": "blood-sugar",
           "titles": {
-            "en": "Diet for Gestational Diabetes",
-            "sv": "Kost vid Graviditetsdiabetes"
+            "en": "Blood sugar",
+            "sv": "Blodsocker"
           },
           "content": {
-            "en": "A balanced diet helps manage blood sugar levels during pregnancy.",
-            "sv": "En balanserad kost hjälper till att hantera blodsockernivåer under graviditeten."
+            "en": "Your blood sugar is important... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "sv": "Ditt blodsocker är viktigt... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
-          "keywords": ["diet", "nutrition", "blood sugar"]
+          "keywords": [
+            "diet",
+            "kost",
+            "nutrition",
+            "blood sugar",
+            "blood values",
+            "blodsocker",
+            "blodvärden"
+          ]
         },
+
         {
-          "id": "exercise",
+          "id": "vitamine-d",
           "titles": {
-            "en": "Exercise During Pregnancy",
-            "sv": "Träning under Graviditet"
+            "en": "Vitamine D",
+            "sv": "D-vitamin"
           },
           "content": {
-            "en": "Light exercise can improve insulin sensitivity.",
-            "sv": "Lätt träning kan förbättra insulinkänsligheten."
+            "en": "D-vitamin values are important... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "sv": "D-vitaminvärden är viktiga... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
-          "keywords": ["exercise", "pregnancy", "insulin"]
+          "keywords": ["D-vitamin", "Vitamine D"]
         }
       ]
     },
     {
-      "id": "postpartum",
-      "titles": { "en": "Postpartum Care", "sv": "Eftervård" },
+      "id": "hormones",
+      "titles": { "en": "Hormones", "sv": "Hormoner" },
       "articles": [
         {
-          "id": "monitoring",
+          "id": "insulin",
           "titles": {
-            "en": "Monitoring After Birth",
-            "sv": "Övervakning efter Födseln"
+            "en": "Insuline",
+            "sv": "Insulin"
           },
           "content": {
-            "en": "Check blood sugar levels after delivery to ensure stability.",
-            "sv": "Kontrollera blodsockernivåer efter förlossningen för att säkerställa stabilitet."
+            "en": "Your insuline sensitivity... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "sv": "Din insulinkänslighet... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           "keywords": ["monitoring", "postpartum", "blood sugar"]
         }
