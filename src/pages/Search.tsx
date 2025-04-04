@@ -15,7 +15,9 @@ const Search: React.FC = () => {
 
   return (
     <div>
-      <h2 className="text-2xl mb-4">Sökresultat för "{query}"</h2>
+      <h2 className="text-2xl mb-4">
+        {t("searchResults")} "{query}":
+      </h2>
       <ul className="space-y-4" aria-label="Search results">
         {results.map(({ areaId, article }) => (
           <li key={`${areaId}-${article.id}`}>

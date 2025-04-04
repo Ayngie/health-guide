@@ -52,7 +52,7 @@ const Layout: React.FC = () => {
               type="submit"
               className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 focus:bg-blue-600"
             >
-              Sök
+              {t("search")}
             </button>
           </div>
           {searchError && (
@@ -61,6 +61,7 @@ const Layout: React.FC = () => {
             </p>
           )}
         </form>
+
         <div className="flex gap-4">
           <button
             onClick={() => setDarkMode(!darkMode)}
@@ -69,6 +70,7 @@ const Layout: React.FC = () => {
           >
             {darkMode ? t("lightMode") : t("darkMode")}
           </button>
+
           <button
             onClick={toggleLanguage}
             className="px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded hover:bg-gray-300 dark:hover:bg-gray-600 focus:bg-gray-300 dark:focus:bg-gray-600"
