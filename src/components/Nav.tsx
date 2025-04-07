@@ -15,12 +15,13 @@ const Nav: React.FC = () => {
 
   return (
     <nav className="p-4 border-b dark:border-gray-700">
+      {/* Subject groups */}
       <ul className="space-y-2">
         {healthAreas.map((area) => (
           <li key={area.id}>
             <button
               onClick={() => toggleArea(area.id)}
-              className="w-full text-left text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-blue-500 focus:text-blue-500"
+              className="w-full text-left text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-blue-500 focus:text-blue-500 underline p-1"
               aria-expanded={expanded[area.id] || false}
               aria-controls={`menu-${area.id}`}
               aria-label={t("menuToggle", {
@@ -29,6 +30,8 @@ const Nav: React.FC = () => {
             >
               {area.titles[i18n.language as "en" | "sv"]}
             </button>
+
+            {/* Submenu items */}
             <ul
               id={`menu-${area.id}`}
               className={`ml-4 mt-1 space-y-1 ${expanded[area.id] ? "block" : "hidden"}`}
