@@ -49,8 +49,7 @@ const Layout: React.FC = () => {
       </header>
 
       <Nav />
-
-      <main className="p-10 bg-teal-50">
+      <main className="p-10 bg-teal-50 dark:bg-gray-800">
         <Outlet />
       </main>
     </div>
