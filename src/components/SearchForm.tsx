@@ -24,28 +24,30 @@ const SearchForm: React.FC<SearchFormProps> = ({}) => {
 
   return (
     <form onSubmit={handleSearch} className="flex flex-col gap-2">
-      <div className="flex gap-2">
-        <input
-          type="search"
-          id="search-input"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={t("searchPlaceholder")}
-          className="px-2 py-1 rounded bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white"
-          aria-label={t("searchPlaceholder")}
-        />
-        <button
-          type="submit"
-          className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 focus:bg-blue-600"
-        >
-          {t("search")}
-        </button>
-      </div>
-      {searchError && (
-        <p id="search-error" className="text-red-500 text-sm" role="alert">
-          {searchError}
-        </p>
-      )}
+      <fieldset>
+        <div className="flex gap-2">
+          <input
+            type="search"
+            id="search-input"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={t("searchPlaceholder")}
+            className="px-2 py-1 rounded bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white"
+            aria-label={t("searchPlaceholder")}
+          />
+          <button
+            type="submit"
+            className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 focus:bg-blue-600"
+          >
+            {t("search")}
+          </button>
+        </div>
+        {searchError && (
+          <p id="search-error" className="text-red-500 text-sm" role="alert">
+            {searchError}
+          </p>
+        )}
+      </fieldset>
     </form>
   );
 };
