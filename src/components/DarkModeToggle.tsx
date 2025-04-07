@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(
+  const [darkMode, setDarkMode] = useState<boolean>(
     () => localStorage.getItem("darkMode") === "true"
   );
 
