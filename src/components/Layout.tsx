@@ -1,6 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import i18n from "../lib/i18n";
+
+const savedLanguage = localStorage.getItem("chosenLanguage");
+
+if (savedLanguage) {
+  i18n.changeLanguage(savedLanguage);
+}
 
 const Layout: React.FC = () => {
   return (

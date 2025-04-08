@@ -4,7 +4,9 @@ const LanguageToggle = () => {
   const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === "sv" ? "en" : "sv");
+    const newLanguage: string = i18n.language === "sv" ? "en" : "sv";
+    i18n.changeLanguage(newLanguage);
+    localStorage.setItem("chosenLanguage", newLanguage);
   };
 
   return (
