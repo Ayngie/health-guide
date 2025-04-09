@@ -18,7 +18,11 @@ const Article: React.FC = () => {
       <h2 className="text-3xl text-center mb-3">
         {article.titles[i18n.language as "en" | "sv"]}
       </h2>
-      <p>{article.content[i18n.language as "en" | "sv"]}</p>
+      {article.content.map((paragraph) => (
+        <p key={paragraph.id} className="mb-4">
+          {paragraph.paragraph[i18n.language as "en" | "sv"]}
+        </p>
+      ))}
     </article>
   );
 };

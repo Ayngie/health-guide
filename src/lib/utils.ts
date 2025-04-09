@@ -21,9 +21,13 @@ export const searchArticles = (query: string, articlesData: any): any[] => {
     area.articles.forEach((article: any) => {
       const titleEn = article.titles.en.toLowerCase();
       const titleSv = article.titles.sv.toLowerCase();
-      const contentEn = article.content.en.toLowerCase();
-      const contentSv = article.content.sv.toLowerCase();
       const keywords = article.keywords.map((k: string) => k.toLowerCase());
+      const contentEn = article.content
+        .map((p: any) => p.paragraph.en.toLowerCase())
+        .join(" ");
+      const contentSv = article.content
+        .map((p: any) => p.paragraph.sv.toLowerCase())
+        .join(" ");
 
       if (
         titleEn.includes(cleanQuery) ||
