@@ -14,6 +14,13 @@ const SearchForm: React.FC<SearchFormProps> = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     setSearchError(null);
+
+    // Check for empty or whitespace-only input
+    if (!searchQuery.trim()) {
+      setSearchError(t("searchQueryEmpty"));
+      return;
+    }
+
     try {
       const cleanQuery = sanitizeInput(searchQuery);
       if (cleanQuery) navigate(`/search?q=${encodeURIComponent(cleanQuery)}`);
