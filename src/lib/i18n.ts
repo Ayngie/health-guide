@@ -10,6 +10,8 @@ const resources = {
       search: "Search",
       searchResults: "Search results for",
       searchPlaceholder: "Search articles...",
+      searchQueryEmpty:
+        "You are welcome to enter a search term in the search field to search articles.",
       searchError: "Input contains inappropriate language",
       notFound: "Page Not Found",
       notFoundMessage: "Sorry, the page you're looking for doesn't exist.",
@@ -33,6 +35,8 @@ const resources = {
       search: "Sök",
       searchResults: "Sökresultat för",
       searchPlaceholder: "Sök artiklar...",
+      searchQueryEmpty:
+        "Välkommen att skriva in en sökterm i sökfältet för att söka artiklar.",
       searchError: "Inmatningen innehåller olämpligt språk",
       notFound: "Sidan Hittades Inte",
       notFoundMessage: "Förlåt, sidan du letar efter finns inte.",

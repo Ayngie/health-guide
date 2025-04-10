@@ -14,7 +14,7 @@ const Header = () => {
         {/* Page "Logo" */}
         {/* Unlike a-tag the Link element doesn't cause the SPA to reload. */}
         <Link to="/">
-          <h1 className="text-4xl p-4 font-bold underline">{t("appTitle")}</h1>
+          <h1 className="text-4xl p-4 font-bold">{t("appTitle")}</h1>
         </Link>
 
         {/* Search item on site */}
