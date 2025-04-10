@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import SearchForm from "./SearchForm";
 import DarkModeToggle from "./DarkModeToggle";
@@ -13,9 +12,9 @@ const Header = () => {
       <section className="p-4 flex flex-col sm:flex-row justify-between items-center border-b dark:border-gray-700 gap-4">
         {/* Page "Logo" */}
         {/* Unlike a-tag the Link element doesn't cause the SPA to reload. */}
-        <Link to="/">
+        <a href="/" title="Go to startpage">
           <h1 className="text-4xl p-4 font-bold">{t("appTitle")}</h1>
-        </Link>
+        </a>
 
         {/* Search item on site */}
         <SearchForm />
