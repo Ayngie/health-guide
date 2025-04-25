@@ -37,21 +37,21 @@
         },
 
         {
-          "id": "vitamine-d",
+          "id": "vitamin-d",
           "titles": {
-            "en": "Vitamine D",
+            "en": "Vitamin D",
             "sv": "D-vitamin"
           },
           "content": [
             {
               "paragraph": {
-                "en": "D-vitamin values are important... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "en": "Maintaining vitamin D levels are important... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "sv": "D-vitaminvärden är viktiga... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               }
             },
             {
               "paragraph": {
-                "en": "You can raise your vitamine-D level by...",
+                "en": "You can raise your vitamin D level by...",
                 "sv": "Du kan höja dina D-vitaminnivåer genom..."
               }
             }
@@ -93,7 +93,7 @@
           "id": "cortisol",
           "titles": {
             "en": "Cortisol",
-            "sv": "'Kortisol'"
+            "sv": "Kortisol"
           },
           "content": [
             {
