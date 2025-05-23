@@ -1,6 +1,4 @@
-# Hälsoguide
-**A.k.a. Health Guide**
-
+# Health guide (or in swedish: Hälsoguide!)!
 
 ## Overview: 
 A playful project to try out some techniques.
@@ -19,8 +17,27 @@ With this project, I wanted to play around with
 - accessibility and compliance with WCAG-guidelines (semantic HTML, ARIA attributes, and keyboard navigation),
 - styling with tailwind css.
 
-Full disclosure: I have sparred with an AI during the process of developing this application, and tweaked code and techniques as I've gone along. 
+## Installation
+To run this project locally:
 
+Clone the repository
+```
+git clone https://github.com/Ayngie/health-guide.git
+```
 
+Navigate to the project directory
+```
+cd health-guide
+```
 
+Install dependencies
+```
+npm install
+```
 
+Start the server
+```
+npm run dev
+```
+
+And check it out in your localhost :) 
