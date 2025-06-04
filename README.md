@@ -17,6 +17,8 @@ With this project, I wanted to play around with
 - accessibility and compliance with WCAG-guidelines (semantic HTML, ARIA attributes, and keyboard navigation),
 - styling with tailwind css.
 
+## Deployed with GitHub Actions
+Visit the deployed app [here](https://ayngie.github.io/health-guide/) :)
 ## Installation
 To run this project locally:
 
