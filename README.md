@@ -19,6 +19,7 @@ With this project, I wanted to play around with
 
 ## Deployed with GitHub Actions
 Visit the deployed app [here](https://ayngie.github.io/health-guide/) :)
+
 ## Installation
 To run this project locally:
 
